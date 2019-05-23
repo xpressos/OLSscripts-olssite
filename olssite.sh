@@ -137,8 +137,8 @@ function check_wget
 function display_license
 {
     echoY '**********************************************************************************************'
-    echoY '*                    Open LiteSpeed One click site installation, Version 2.0                 *'
-    echoY '*                    Copyright (C) 2016 - 2019 LiteSpeed Technologies, Inc.                  *'
+    echoY '*                  Open LiteSpeed One click site installation, Version 2.0                   *'
+    echoY '*                   Copyright (C) 2016 - 2019 LiteSpeed Technologies, Inc.                   *'
     echoY '**********************************************************************************************'
 }
 
@@ -885,11 +885,11 @@ function test_site
 #####################################################################################
 ###start here 1###
 check_root
-update_centos
 check_wget
+update_centos
+display_license
 check_os
 kill_apache
-display_license
 
 while [ "$1" != "" ] ; do
     case $1 in
