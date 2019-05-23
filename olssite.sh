@@ -61,10 +61,10 @@ FORCEYES=0
 
 #All lsphp versions, keep using two digits to identify a version!!!
 #otherwise, need to update the uninstall function which will check the version
-LSPHPVERLIST=(54 55 56 70 71 72)
+LSPHPVERLIST=(54 55 56 70 71 72 73)
 
 #default version
-LSPHPVER=72
+LSPHPVER=73
 USEDEFAULTLSPHP=1
 
 ALLERRORS=0
@@ -136,10 +136,10 @@ function check_wget
 
 function display_license
 {
-    echoY '**********************************************************************************************'
-    echoY '*                  Open LiteSpeed One click site installation, Version 2.0                   *'
-    echoY '*                   Copyright (C) 2016 - 2019 LiteSpeed Technologies, Inc.                   *'
-    echoY '**********************************************************************************************'
+    echoY '********************************************************************************'
+    echoY '*           Open LiteSpeed One click site installation, Version 2.0            *'
+    echoY '*            Copyright (C) 2016 - 2019 LiteSpeed Technologies, Inc.            *'
+    echoY '********************************************************************************'
 }
 
 function check_os
@@ -1013,7 +1013,7 @@ fi
 
 
 echo
-echoR "Starting to install OpenLiteSpeed to $SERVER_ROOT/ with the parameters below,"
+echoR "Installing OpenLiteSpeed to $SERVER_ROOT/ with the following parameters:"
 echoY "WebAdmin password:        " "$ADMINPASSWORD"
 echoY "WebAdmin email:           " "$EMAIL"
 echoY "LSPHP version:            " "$LSPHPVER"
