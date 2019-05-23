@@ -18,7 +18,7 @@
 ##############################################################################
 
 ###    Author: dxu@litespeedtech.com (David Shue)
-###    Modified by Xpressos CDC.
+###    Modified by Xpressos CDC
 
 
 TEMPRANDSTR=
@@ -137,8 +137,8 @@ function check_wget
 function display_license
 {
     echoY '********************************************************************************'
-    echoY '*           Open LiteSpeed One click site installation, Version 2.0            *'
-    echoY '*            Copyright (C) 2016 - 2019 LiteSpeed Technologies, Inc.            *'
+    echoY '*           Open LiteSpeed One-Click Site Installation, Version 1.0            *'
+    echoY '*                       Copyright (C) 2019 Xpressos CDC.                       *'
     echoY '********************************************************************************'
 }
 
