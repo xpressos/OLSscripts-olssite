@@ -136,10 +136,10 @@ function check_wget
 
 function display_license
 {
-    echoY '******************************************************************************'
-    echoY '*           Open LiteSpeed One-Click Site Installation, Version 1.0          *'
-    echoY '*                      Copyright (C) 2019 Xpressos CDC.                      *'
-    echoY '******************************************************************************'
+    echoY '********************************************************************************'
+    echoY '*            Open LiteSpeed One-Click Site Installation, Version 1.0           *'
+    echoY '*                       Copyright (C) 2019 Xpressos CDC.                       *'
+    echoY '********************************************************************************'
 }
 
 function check_os
@@ -1028,12 +1028,12 @@ if [ "x$INSTALLSITE" = "x1" ] ; then
   
     if [ -e "$SITEPATH" ] ; then
         echoY "Site location:            " "$SITEPATH (Existing)"
-	echo "============================================================================"
+	echo "=============================================================================="
 	echo
         SITEINSTALLED=1
     else
         echoY "Site location:            " "$SITEPATH (New install)"
-	echo "============================================================================"
+	echo "=============================================================================="
 	echo
         SITEINSTALLED=0
     fi
