@@ -78,7 +78,7 @@ CSR=example.csr
 KEY=example.key
 CERT=example.crt
 
-MYGITHUBURL=https://raw.githubusercontent.com/olsscripts/olssite/master/olssite.sh
+MYGITHUBURL=https://github.com/xpressos/OLSSCRIPTS-olssite
 
 function update_centos
 {
