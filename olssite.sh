@@ -1028,9 +1028,11 @@ if [ "x$INSTALLSITE" = "x1" ] ; then
   
     if [ -e "$SITEPATH" ] ; then
         echoY "Site location:            " "$SITEPATH (Existing)"
+	echo
         SITEINSTALLED=1
     else
         echoY "Site location:            " "$SITEPATH (New install)"
+	echo
         SITEINSTALLED=0
     fi
 else
