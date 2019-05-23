@@ -218,7 +218,7 @@ function check_os
     if [ "x$OSNAMEVER" = "x" ] ; then
         echoR "Sorry, currently one click installation only supports Centos(6,7), Debian(7-9) and Ubuntu(14,16,18)."
         echoR "You can download the source code and build from it."
-        echoR "The url of the source code is https://github.com/olsscripts/olssite."
+        echoR "The url of the source code is https://github.com/xpressos/OLSscripts-olssite."
         echo 
         exit 1
     else
