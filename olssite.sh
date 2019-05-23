@@ -1013,7 +1013,7 @@ fi
 
 
 echo
-echoR "Installing OpenLiteSpeed to $SERVER_ROOT/ with the following parameters:"
+echoY "Installing OpenLiteSpeed to $SERVER_ROOT/ with the following parameters:"
 echoY "WebAdmin password:        " "$ADMINPASSWORD"
 echoY "WebAdmin email:           " "$EMAIL"
 echoY "LSPHP version:            " "$LSPHPVER"
