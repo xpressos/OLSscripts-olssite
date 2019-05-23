@@ -1107,7 +1107,7 @@ if [ "x$INSTALLSITE" = "x1" ] ; then
 fi
 
 echo
-echoG 'Thanks for using "OpenLiteSpeed One click installation".'
+echoG 'Thanks for using OpenLiteSpeed One Click Site Installation.'
 echoG "Enjoy!"
 echo
 echo
