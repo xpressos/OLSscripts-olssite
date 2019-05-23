@@ -10,6 +10,7 @@ you can quickly and easily install OpenLiteSpeed with some modified config setti
 
 There is an **-s** parameter that will automatically install your site with an SSL Certificate. 
 
+<br><b> Tested on Centos 7 only.</b>
 
 Running OlSsite
 --------
@@ -36,6 +37,4 @@ settings and values.
 
 --------
 Credit to the original script @ litespeedtech/ols1clk
-
-<br><b> Tested on Centos 7 only.</b>
 
