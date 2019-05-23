@@ -37,3 +37,5 @@ settings and values.
 --------
 Credit to the original script @ litespeedtech/ols1clk
 
+<br><b> Tested on Centos 7 only.</b>
+
