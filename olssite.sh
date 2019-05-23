@@ -400,7 +400,7 @@ function install_site
 	    echo
 	    echoY "Installing site ..."
 	    echo
-	    wget -P $SITEPATH https://github.com/olsscripts/olssite/raw/master/sitefiles.tar.gz
+	    wget -P $SITEPATH https://github.com/xpressos/OLSscripts-olssite/raw/master/sitefiles.tar.gz
 	    cd "$SITEPATH"
 	    tar -xzf sitefiles.tar.gz
 	    rm sitefiles.tar.gz
